@@ -1,0 +1,38 @@
+Class Book
+    Attributes:
+        String title       // The title of the book
+        String isbn        // The ISBN number of the book
+        Boolean isEbook    // Whether the book is an eBook (true/false)
+        Integer yearPublished  // The year the book was published
+        Author[] authors   // Array of up to 3 authors
+
+    Methods:
+        Constructor(title, isbn, isEbook, yearPublished, authors)
+            Set the title
+            Set the isbn
+            Set isEbook
+            Set yearPublished
+            Set authors
+
+        Method getTitle()
+            Return title
+
+        Method getIsbn()
+            Return isbn
+
+        Method isEbook()
+            Return isEbook
+
+        Method getYearPublished()
+            Return yearPublished
+
+        Method getAuthors()
+            Return authors array
+
+        Method toString()
+            Create a string representation of the book details
+            For each author, append author information to the string
+            Return the final string
+
+
+

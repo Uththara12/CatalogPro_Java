@@ -1,0 +1,26 @@
+Class Author
+    Attributes:
+        String name           // Author's full name
+        String nationality    // Author's nationality
+        Integer yearOfBirth   // Author's birth year
+
+    Methods:
+        Constructor(name, nationality, yearOfBirth)
+            Set name
+            Set nationality
+            Set yearOfBirth
+
+        Method getName()
+            Return name
+
+        Method getNationality()
+            Return nationality
+
+        Method getYearOfBirth()
+            Return yearOfBirth
+
+        Method toString()
+            Create a string representation of the author details
+            Return the string
+
+

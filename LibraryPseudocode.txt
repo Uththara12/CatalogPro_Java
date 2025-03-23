@@ -1,0 +1,60 @@
+Class Library
+    Attributes:
+        Book[] books         // Array of books, max size 100
+        Integer bookCount    // Tracks the number of books in the array
+
+    Methods:
+        Constructor()
+            Initialize books array to hold 100 books
+            Set bookCount to 0
+
+        Method readFromFile(fileName)
+            Open the CSV file for reading
+            Read the header line and skip it
+            For each line in the file:
+                Skip empty lines
+                Split the line into data fields
+                If the data fields are less than 16:
+                    Print error and skip the line
+                Else:
+                    Extract title, isbn, yearPublished, and eBook status from the data fields
+                    For each of the 3 authors:
+                        If author data is available, create an Author object
+                        Store the Author object in the authors array
+                    Create a new Book object with the extracted data
+                    Add the Book object to the books array
+                    Increment bookCount
+            Close the file
+
+        Method writeToFile(fileName)
+            Open the file for writing
+            Write the header row to the file
+            For each book in the books array:
+                Write book details and author information to the file
+            Close the file
+
+        Method getBookCount()
+            Return bookCount
+
+        Method getBook(index)
+            If the index is valid:
+                Return the book at the specified index
+            Else:
+                Return null
+
+        Method getAllBooks()
+            Return the entire books array
+
+        Method getEbooks()
+            Create an empty array for eBooks
+            For each book in the books array:
+                If the book is an eBook, add it to the eBooks array
+            Return the eBooks array
+
+        Method getNonEbooks()
+            Create an empty array for non-eBooks
+            For each book in the books array:
+                If the book is not an eBook, add it to the non-eBooks array
+            Return the non-eBooks array
+
+

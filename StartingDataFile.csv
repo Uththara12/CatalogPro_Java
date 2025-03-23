@@ -1,0 +1,5 @@
+title,familyNameOne,firstNameOne,nationalityOne,birthYearOne,familyNameTwo,firstNameTwo,nationalityTwo,birthYearTwo,familyNameThree,firstNameThree,nationalityThree,birthYearThree,year,isbn,ebook,edition
+COMP1007 for Everyone,0123456789,true,2024,McMeekin David,Aust,1990,Brower Arlen,USA,1995,Liang Antoni,France,1998
+UCP for All Who Desire,0987654321,true,2023,Brower Arlen,USA,1995,McMeekin David,Aust,1990,Maxville Valerie,Aust,1993
+FOP for the Rest of Us,1987654327,false,2019,Maxville Valerie,Aust,1993,Brower Arlen,USA,1995
+F1 Racing for Beginners,2589631465,false,2022,Liang Antoni,France,1998

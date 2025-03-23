@@ -1,0 +1,26 @@
+### Assignment Submission Checklist
+
+1. **Pseudocode Submission**
+   - [X] Book.java pseudocode submitted.
+   - [X] Author.java pseudocode submitted.
+   - [X] Library.java pseudocode submitted.
+   - [X] Main.java pseudocode submitted.
+
+2. **Java Source Code Submission**
+   - [X] Book.java submitted.
+   - [X] Author.java submitted.
+   - [X] Library.java submitted.
+   - [X] Main.java submitted.
+
+3. **Screen Recording**
+   - [X] Screen recording completed and submitted.
+
+4. **Testing Functionality**
+   - [X] CSV file reading is working.
+   - [X] View All Books is working.
+   - [X] View eBooks is working.
+   - [X] View Non-eBooks is working.
+   - [X] View Books by Author is working.
+   - [X] CSV file writing is working.
+
+

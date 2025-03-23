@@ -1,0 +1,38 @@
+Class Main
+    Method main()
+        Create an instance of Library
+        Open Scanner for user input
+        Define the fileName as "StartingDataFile.csv"
+        Call library.readFromFile(fileName) to load books from the CSV file
+
+        Set choice to 0
+        While choice is not 7:
+            Print menu options:
+                1. View all Books
+                2. View eBooks
+                3. View non-eBooks
+                4. View an author's Books
+                5. Add a Book (Not implemented)
+                6. Edit a Book (Not implemented)
+                7. Exit
+
+            Ask the user for input (choice)
+            If choice is 1 (View all Books):
+                Print all books using library.getAllBooks()
+            Else if choice is 2 (View eBooks):
+                Print only eBooks using library.getEbooks()
+            Else if choice is 3 (View non-eBooks):
+                Print only non-eBooks using library.getNonEbooks()
+            Else if choice is 4 (View an author's Books):
+                Ask for the author's name
+                Search for books by that author and print them
+            Else if choice is 7 (Exit):
+                Print "Exiting the program..."
+                Exit the loop
+            Else:
+                Print "Invalid choice. Try again."
+
+        Call library.writeToFile(fileName) to save any changes to the CSV file
+        Close the Scanner
+
+
